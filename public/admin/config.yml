@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: WaPeR/NexoX
+  branch: main
+locale: es
+media_folder: public/images/uploads
+public_folder: /images/uploads
+collections:
+  - name: reviews
+    label: Artículos y reviews
+    label_singular: Artículo
+    folder: src/content/reviews
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: Fecha, name: date, widget: datetime }
+      - { label: Resumen, name: description, widget: text }
+      - { label: Portada, name: image, widget: image, required: false }
+      - { label: Plataformas, name: platforms, widget: list, required: false, default: [] }
+      - { label: Género, name: genre, widget: string, required: false }
+      - { label: Borrador, name: draft, widget: boolean, default: true }
+      - { label: Contenido, name: body, widget: markdown }
