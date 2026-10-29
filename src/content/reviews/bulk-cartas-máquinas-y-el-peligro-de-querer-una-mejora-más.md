@@ -8,7 +8,7 @@ image: /images/uploads/img_0034.jpeg
 platforms:
   - PC
 genre: Cartas, Incremental
-draft: true
+draft: false
 ---
 Una carta más. Una combinación más. Una mejora antes de cerrar. BULK construye su propuesta alrededor de esa tentación tan reconocible de los juegos incrementales: convertir una tarea sencilla en una cadena de objetivos cada vez más ambiciosos. Aquí no se trata de conquistar un reino ni de salvar el mundo, sino de poner a trabajar una fábrica donde las cartas son materia prima y cada venta abre la puerta a seguir creciendo.
 
