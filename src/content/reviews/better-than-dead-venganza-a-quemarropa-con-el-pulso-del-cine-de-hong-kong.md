@@ -9,7 +9,7 @@ image: /images/uploads/better-than-dead-04-16-26-1-772048310.jpg
 platforms:
   - PC
 genre: Acción, FPS
-draft: true
+draft: false
 ---
 Abrir una puerta, localizar una amenaza y disparar antes de que sea demasiado tarde. Better Than Dead concentra su propuesta en esos segundos en los que cualquier error puede terminar con el intento. No busca ofrecer una gran aventura de exploración ni una campaña repleta de conversaciones: quiere colocarte dentro de una secuencia de venganza y obligarte a encontrar la manera de salir con vida.
 
