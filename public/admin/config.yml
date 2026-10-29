@@ -19,5 +19,10 @@ collections:
       - { label: Portada, name: image, widget: image, required: false }
       - { label: Plataformas, name: platforms, widget: list, required: false, default: [] }
       - { label: Género, name: genre, widget: string, required: false }
+      - label: Vídeo de YouTube
+        name: youtube
+        widget: string
+        required: false
+        hint: 'Opcional. Pega el enlace completo de YouTube o youtu.be. El vídeo aparecerá al final de la review; si dejas este campo vacío, no se mostrará. Los enlaces no reconocidos no generan reproductor.'
       - { label: Borrador, name: draft, widget: boolean, default: true }
       - { label: Contenido, name: body, widget: markdown }

@@ -9,6 +9,7 @@ const reviews = defineCollection({
     image: z.string().optional(),
     platforms: z.array(z.string()).default([]),
     genre: z.string().optional(),
+    youtube: z.string().nullish(),
     draft: z.boolean().default(false)
   })
 });
